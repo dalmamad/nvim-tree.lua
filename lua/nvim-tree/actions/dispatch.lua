@@ -17,6 +17,7 @@ local Actions = {
 
   -- Filesystem operations
   copy_absolute_path = require("nvim-tree.actions.fs.copy-paste").copy_absolute_path,
+  create_dir = require("nvim-tree.actions.fs.create-file").create_dir,
   copy_name = require("nvim-tree.actions.fs.copy-paste").copy_filename,
   copy_path = require("nvim-tree.actions.fs.copy-paste").copy_path,
   copy = require("nvim-tree.actions.fs.copy-paste").copy,
